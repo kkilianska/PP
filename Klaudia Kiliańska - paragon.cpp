@@ -10,7 +10,6 @@ int main() {
     cin>>x;
     cout << "Podaj wysokosc VAT w procentach: " << endl;
     cin>>p;
-    //system("pause");
 
     netto = a * x;
     VAT = (netto * p)/100;
