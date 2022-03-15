@@ -15,6 +15,7 @@ int main() {
     VAT = (netto * p)/100;
     brutto = netto + VAT;
 
+    printf("PARAGON FISKALNY\n");
     printf("Wartosc netto: %.1f\n", netto);
     printf("Wartosc VAT: %.1f\n", VAT);
     printf("Wartosc brutto: %.1f\n", brutto);
